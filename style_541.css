@@ -1,0 +1,20 @@
+form
+{	
+
+	background-color: cyan;
+	text-align: center; 
+	border: 3px;
+	border-style: ridge;
+	width: 500px;
+    height: 230px;
+    position: fixed;
+    bottom: 300;
+    right: 400;
+    
+
+}
+body
+{
+	border-style: ridge;
+	background-color: rgba(221,701,121,345);
+}

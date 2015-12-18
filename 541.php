@@ -14,7 +14,10 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 echo "Connected successfully";
  ?> 
 <html>
-<body>
+<head>
+<link rel="stylesheet" type="text/css" href="style_541.css"></link>
+</head>
+<body >
 
 <form action="<?php echo $_SERVER["PHP_SELF"];?>" method="post" >
     Name:<br>
@@ -22,11 +25,12 @@ echo "Connected successfully";
     Age<br>
     <input type = "text" name ="age" value = " "><br>
     Gender<br>
-    <input type = "text" name ="gender" value = " ">
-    <input type ="submit" name = "sub">
+    <input type = "text" name ="gender" value = " "><br><br>
+    <input type ="submit" name = "sub"><br><br>
     <button name = "demo" value = "print records" >print records</button>
-
 </form>
+
+
 
 <?php
 
